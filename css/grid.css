@@ -1,17 +1,20 @@
-.grid {
-  overflow: hidden;
-}
+@media only screen and (min-width: 25em){
 
-.unit {
-  float: left;
-}
+  .grid {
+    overflow: hidden;
+  }
 
-.xs-1 {
-  width: 100%;
-}
+  .unit {
+    float: left;
+  }
 
-.s-1 {
-  width: 100%;
+  .xs-1 {
+    width: 100%;
+  }
+
+  .s-1 {
+    width: 100%;
+  }
 }
 
 @media only screen and (min-width: 38em) {
